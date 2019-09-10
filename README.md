@@ -7,8 +7,8 @@ Requirements
 
 Preparation
 ---
-First, download and unzip GloVe vectors(*glove.840B.300d.zip*) from https://nlp.stanford.edu/projects/glove/ .<br>
-Then, put *glove.840B.300d.txt* into *./dataset/glove* directory. <br>
+First, download and unzip GloVe vectors(glove.840B.300d.zip) from https://nlp.stanford.edu/projects/glove/ .<br>
+Then, put 'glove.840B.300d.txt' into './dataset/glove' directory. <br>
 
 Training
 ---
@@ -16,4 +16,4 @@ To train the CDT model, run: <br>
 ```Bash
 ./train.sh
 ```
-The *train.sh* contains training commands for different datasets.
+The 'train.sh' contains training commands for different datasets.
