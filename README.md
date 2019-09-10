@@ -12,3 +12,8 @@ Then, put 'glove.840B.300d.txt' into './dataset/glove' directory. <br>
 
 Training
 ---
+To train the CDT model, run: <br>
+```Bash
+./train.sh
+```
+The 'train.sh' contains training command for different datasets.
