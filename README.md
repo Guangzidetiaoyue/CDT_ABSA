@@ -18,3 +18,11 @@ To train the CDT model, run: <br>
 ```
 The `train.sh` contains training commands for different datasets. <br>
 Model checkpoints and logs will be saved to `./saved_models`. 
+
+Evaluation
+---
+First, you need to specify `--data_dir`, `--vocab_dir` and `--model_dir` in `eval.py`. <br>
+Then, run:<br>
+```Bash
+python eval.py
+```
