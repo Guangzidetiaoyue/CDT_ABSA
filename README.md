@@ -13,7 +13,8 @@ Next, prepare vocabulary with:<br>
 ```Bash
 ./build_vocab.sh
 ```
-The `build_vocab.sh` contains commands to build vocab for different datasets. <br>
+The `build_vocab.sh` contains commands to build vocab for different datasets.
+
 Training
 ---
 To train the CDT model, run: <br>
